@@ -1,1 +1,30 @@
+.post-body > *:last-child{
+	margin: 0px 0px 0px;
+}
 
+.post-body p {
+    margin: 0px 0px 15px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.post-body p.ipTamil {
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+li.gplus {
+	display:none;
+}
+
+@media screen and (max-width: 576px) {
+
+.post-body p {
+    font-size: 15px;
+}
+
+.post-body p.ipTamil {
+    font-size: 15px;
+}
+
+}
